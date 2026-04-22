@@ -61,7 +61,7 @@ body {
 
 /* VIDEO */
 .video {
-  padding: 60px 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
@@ -115,7 +115,6 @@ body {
   margin-top: 20px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 600px) {
   .hero h2 {
     font-size: 1.8em;
@@ -133,4 +132,31 @@ body {
 .card-gif:hover {
   transform: scale(1.02);
   opacity: 1;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.card-logos {
+  display: flex;
+  gap: 6px;
+}
+
+.card-logos img {
+  height: 50px;
+  max-width: 120px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .card-logos img {
+    height: 24px;
+  }
 }
