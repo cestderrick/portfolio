@@ -121,3 +121,16 @@ body {
     font-size: 1.8em;
   }
 }
+
+.card-gif {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+  opacity: 0.9;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.card-gif:hover {
+  transform: scale(1.02);
+  opacity: 1;
+}
