@@ -115,12 +115,6 @@ body {
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-  .hero h2 {
-    font-size: 1.8em;
-  }
-}
-
 .card-gif {
   width: 100%;
   margin-top: 15px;
@@ -156,7 +150,18 @@ body {
 }
 
 @media (max-width: 600px) {
+  .hero h2 {
+    font-size: 1.8em;
+  }
+  .card-header img {
+    flex-direction: column;
+	align-items: flex-start;
+  }
+  .card-logo {
+	  align-self: flex-end;
+  }
   .card-logos img {
     height: 24px;
+	max-width: 60px;
   }
 }
