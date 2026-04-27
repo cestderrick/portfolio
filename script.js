@@ -25,7 +25,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Init animation
-document.querySelectorAll('.card').forEach(card => {
+document.querySelectorAll('.section').forEach(card => {
   card.style.opacity = 0;
   card.style.transform = 'translateY(20px)';
   card.style.transition = '0.5s';
