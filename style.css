@@ -166,7 +166,7 @@ body::before {
 
 /* CARDS */
 .card {
-  background: #181818;
+  background: rgba(24, 24, 24, 0.25);
   border: 1px solid #2a2a2a;
   padding: 20px;
   border-radius: 14px;
@@ -231,7 +231,16 @@ body::before {
 }
 
 @media (max-width: 600px) {
-  .hero h2 {
+  body::before {
+    opacity: 0.5;
+    filter: blur(18px);
+    background-position: center top;
+  }
+
+  body::after {
+    background: rgba(15, 15, 15, 0.35);
+  }
+ .hero h2 {
     font-size: 1.8em;
   }
   .hero-header {
